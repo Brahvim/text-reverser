@@ -4,9 +4,9 @@ html, body {
     background-color: grey;
     font-family: cursive;
     font-style: italic;
-    zoom: 250%;
-    min-zoom: 150%;
-    max-zoom: 350%;
+    /* zoom: 250%; */
+    /* min-zoom: 150%; */
+    /* max-zoom: 350%; */
 }
 
 canvas {

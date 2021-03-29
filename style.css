@@ -2,7 +2,8 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: grey;
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
     zoom: 250%;
     min-zoom: 150%;
     max-zoom: 350%;
@@ -14,8 +15,4 @@ canvas {
 
 html, p {
     color: aqua;
-}
-
-html, t {
-    resize: both;
 }

@@ -1,6 +1,6 @@
-var p, //p is the prompt, 
-    t,// t is the text box, 
-    o;// o is the output.
+var p,  //p is the prompt, 
+    t,  //t is the text box, 
+    o;  // o is the output.
 function setup() {
     noCanvas();
     p = createP("Text Reverser program!");

@@ -6,9 +6,9 @@ html, body {
     font-family: cursive;
     font-style: italic;
     color: aqua;
-    /* zoom: 250%; */
-    /* min-zoom: 150%; */
-    /* max-zoom: 350%; */
+    zoom: 50%;
+    min-zoom: 150%;
+    max-zoom: 350%;
 }
 
 /* canvas {

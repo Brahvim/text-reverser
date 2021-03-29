@@ -1,4 +1,6 @@
-var p, t, o; //p is the prompt, t is the text box, o is the output.
+var p, //p is the prompt, 
+    t,// t is the text box, 
+    o;// o is the output.
 function setup() {
     noCanvas();
     p = createP("Text Reverser program!");
@@ -7,9 +9,9 @@ function setup() {
     o = createInput(""); o.position(150, t.position().y + 25);
 }
 
-var s, //s is the string received from the textbox
-    sArr,// and sArr is the split string (array), which is later reversed.
-    r;//r is the resultant string.
+var s,      //s is the string received from the textbox
+    sArr,   // and sArr is the split string (array), which is later reversed.
+    r;      //r is the resultant string.
 function draw() {
     s = t.value();
     sArr = split(s, '');

@@ -3,15 +3,13 @@ html, body {
     padding: 0;
     background-color: grey;
     font-family: sans-serif;
-    zoom: 125%;
+    zoom: 12 5%;
     overflow-wrap: break-word;
 }
 
-/* canvas { */
-
-/* display: block; */
-
-/* } */
+canvas {
+    display: block;
+}
 
 html, p {
     color: aqua;

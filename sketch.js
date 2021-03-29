@@ -13,13 +13,11 @@ var s,      //s is the string received from the textbox
     sArr,   // and sArr is the split string (array), which is later reversed.
     r;      //r is the resultant string.
 function draw() {
-    if (t.changed()) {
-        s = t.value();
-        sArr = split(s, '');
-        sArr.reverse();
-        for (let i = 0; i < s.length; i++) {
-            r += sArr[i];
-        }
+    s = t.value();
+    sArr = split(s, '');
+    sArr.reverse();
+    for (let i = 0; i < s.length; i++) {
+        r += sArr[i];
     }
     o.value(r);
     r = '';

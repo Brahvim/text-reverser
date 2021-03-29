@@ -1,20 +1,11 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-size: small;
     background-color: grey;
+    color: aqua;
     font-family: cursive;
     font-style: italic;
-    color: aqua;
-    zoom: 250%;
-    min-zoom: 150%;
-    max-zoom: 350%;
+    zoom: 125%;
+    /* min-zoom: 0%; */
+    /* max-zoom: 80%; */
 }
-
-/* canvas {
-    display: block;
-} */
-
-/* html, p {
-    color: aqua;
-} */

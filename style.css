@@ -3,6 +3,9 @@ html, body {
     padding: 0;
     background-color: grey;
     font-family: sans-serif;
+    zoom: 250%;
+    min-zoom: 150%;
+    max-zoom: 350%;
 }
 
 canvas {

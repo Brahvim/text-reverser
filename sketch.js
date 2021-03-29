@@ -4,7 +4,7 @@ function setup() {
     p = createP("Text Reverser program!");
     p.position(150);
     t = createInput(""); t.position(150, p.position().y + 50);
-    o = createP(""); o.position(150, t.position().y + 25);
+    o = createInput(""); o.position(150, t.position().y + 25);
 }
 
 var s, //s is the string received from the textbox

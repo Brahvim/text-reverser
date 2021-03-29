@@ -10,3 +10,5 @@ just a terrible version of a common tool people will need 🤣
   (*It's that simple!*)
 
 3. Licenses scare me; I don't want to read a lot of legal documentation and misunderstand it or whatever!
+
+**THIS PROJECT USES THE p5.js JAVASCRIPT LIBRARY!**

@@ -6,7 +6,7 @@ html, body {
     font-family: cursive;
     font-style: italic;
     color: aqua;
-    zoom: 50%;
+    zoom: 125%;
     min-zoom: 150%;
     max-zoom: 350%;
 }

@@ -6,9 +6,11 @@ html, body {
     zoom: 250%;
 }
 
-canvas {
-    display: block;
-}
+/* canvas { */
+
+/* display: block; */
+
+/* } */
 
 html, p {
     color: aqua;

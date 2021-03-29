@@ -4,15 +4,16 @@ html, body {
     background-color: grey;
     font-family: cursive;
     font-style: italic;
+    color: aqua;
     /* zoom: 250%; */
     /* min-zoom: 150%; */
     /* max-zoom: 350%; */
 }
 
-canvas {
+/* canvas {
     display: block;
-}
+} */
 
-html, p {
+/* html, p {
     color: aqua;
-}
+} */

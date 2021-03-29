@@ -4,6 +4,7 @@ html, body {
     background-color: grey;
     font-family: sans-serif;
     zoom: 150%;
+    overflow-wrap: break-word;
 }
 
 /* canvas { */

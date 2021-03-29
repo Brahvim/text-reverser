@@ -17,6 +17,6 @@ function draw() {
     for (let i = 0; i < s.length; i++) {
         r += sArr[i];
     }
-    o.html(r);
+    o.value(r);
     r = '';
 }

@@ -13,7 +13,6 @@ var s,      //s is the string received from the textbox
     sArr,   // and sArr is the split string (array), which is later reversed.
     r;      //r is the resultant string.
 function draw() {
-    p.position(50, p.position().y + Math.sin(millis() * 5));
     s = t.value();
     sArr = split(s, '');
     sArr.reverse();

@@ -3,7 +3,7 @@ function setup() {
     noCanvas();
     p = createP("Text Reverser program!");
     p.position(150);
-    t = createInput(""); t.position(150, p.position().y + 50);
+    t = createInput(""); t.position(150, p.position().y + 100);
     o = createInput(""); o.position(150, t.position().y + 25);
 }
 

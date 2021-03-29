@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     background-color: grey;
     font-family: sans-serif;
+    zoom: 250%;
 }
 
 canvas {

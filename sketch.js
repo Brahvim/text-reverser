@@ -1,18 +1,23 @@
-var p,    //p is the prompt, 
-    t,      //t is the text box, 
-    o;      //o is the output.
+var t,      //t is the text box,
+    o,      //o is the output.
+    g;      //g is the GitHub repo link.
 function setup() {
-    createCanvas(500, 150);
+    createCanvas(300, 150);
     // p = createP("Text Reverser program!");
     // p.position(150, p.position().y, static);
-    t = createInput(""); t.position(50);
-    o = createInput(""); o.position(50, t.position().y + 25);
-    o.attribute('autofocus', 'true');
+    t = createInput((getItem('last') != null) ? getItem('last') : ''); t.position(50);
+    o = createInput((getItem('last') != null) ? getItem('last') : ''); o.position(50, t.position().y + 25);
+    g = createA('https://github.com/Brahvim/text-reverser',
+        'Hosted with GitHub Pages.', '_blank');
+    g.position(g.position().x + 285, o.position().y + 40);
+
+
     //Text styling:
     textStyle(ITALIC);
     textFont('Cursive');
     textAlign(CENTER);
     textSize(20);
+    // t.attribute('autofocus');
 }
 
 var s,      //s is the string received from the textbox
@@ -34,6 +39,7 @@ function draw() {
     fill(255, 217, 218);
     textSize(6);
     text('..that\'s all this stupid website does.', 180, 120);
+    text('And Emojis don\'t work!', 180, 140);
     textSize(20);
     s = t.value();
     sArr = split(s, '');
@@ -42,5 +48,6 @@ function draw() {
         r += sArr[i];
     }
     o.value(r);
-    r = '';
+    r = ''; //Just so it renders correctly 😁
+    storeItem('last', s);
 }

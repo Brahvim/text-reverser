@@ -2,5 +2,16 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: rgb(13, 122, 110);
-    zoom: 125%;
+    zoom: 160%;
+    font-family: sans-serif;
+}
+
+html, body, canvas {
+    display: block;
+}
+
+#GHpage {
+    position: absolute;
+    top: 600px;
+    left: auto;
 }

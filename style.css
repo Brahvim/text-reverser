@@ -1,11 +1,6 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: grey;
-    color: aqua;
-    font-family: cursive;
-    font-style: italic;
-    zoom: 110%;
-    /* min-zoom: 0%; */
-    /* max-zoom: 80%; */
+    background-color: rgb(13, 122, 110);
+    zoom: 125%;
 }

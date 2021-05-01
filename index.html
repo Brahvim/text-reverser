@@ -9,7 +9,37 @@
 </head>
 
 <body>
+
+    <div class="tooltip" style="left:350px; top: 100px;">
+        <button style="font-size: 8px;" onclick="myFunction()" onmouseout="outFunc()">
+            <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+            Copy reversed text
+        </button>
+    </div>
+
+    <script>
+        function myFunction() {
+            var copyText = document.getElementById("o");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+
+            var tooltip = document.getElementById("myTooltip");
+            tooltip.innerHTML = "Copied text.";
+        }
+
+        function outFunc() {
+            var tooltip = document.getElementById("myTooltip");
+            tooltip.innerHTML = "Copy to clipboard";
+        }
+    </script>
+
+
+    <h1 id="head">Text Reverser!</h1>
     <script src="sketch.js"></script>
+    <p class="ptext" style="left: 80px;">Enter Text to reverse it.</p>
+    <p class="ptext">..that's all this stupid website does.</p>
+    <p class="ptext">And Emojis don't work! (Unless you type them twice.)</p>
 </body>
 
 </html>

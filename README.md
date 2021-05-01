@@ -1,5 +1,5 @@
 # text-reverser
-A terrible website that 'humorises' text that you enter in a textbox using terribly written code.
+A terrible looking website that 'humorises' text that you enter in a textbox using terribly written code.
 
 
 **I didn't add a license because:**

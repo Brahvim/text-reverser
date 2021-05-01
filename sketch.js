@@ -1,6 +1,7 @@
 var t,      //t is the text box,
     o;      //o is the output.
 function setup() {
+
     noCanvas();
     t = createInput((getItem('last') != null) ? getItem('last') : ''); t.position(180);
     o = createInput((getItem('last') != null) ? getItem('last') : '').id('o'); o.position(t.position().x, t.position().y + 25);
